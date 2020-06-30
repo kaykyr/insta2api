@@ -1,6 +1,6 @@
 # insta2api
 
-> insta2api is a API to handle Instagram Web in browser (crowler)
+> insta2api is a API to handle Instagram Web in browser (crawler)
 >
 > It is built using [puppeteer](https://github.com/GoogleChrome/puppeteer)
 
