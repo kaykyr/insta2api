@@ -1,0 +1,24 @@
+{
+    "name": "instajs",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon src/server.js --ignore src/sessions",
+        "build": "sucrase ./src -d ./dist --transforms imports"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "md5": "^2.2.1",
+        "mysql2": "^2.1.0",
+        "puppeteer": "^4.0.0",
+        "sequelize": "^5.21.12"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4",
+        "sucrase": "^3.15.0"
+    }
+}
